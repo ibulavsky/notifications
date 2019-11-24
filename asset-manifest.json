@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Authentification/static/css/main.7f9eb35d.chunk.css",
+    "main.js": "/Authentification/static/js/main.9f9b5f4d.chunk.js",
+    "main.js.map": "/Authentification/static/js/main.9f9b5f4d.chunk.js.map",
+    "runtime-main.js": "/Authentification/static/js/runtime-main.23bbeeeb.js",
+    "runtime-main.js.map": "/Authentification/static/js/runtime-main.23bbeeeb.js.map",
+    "static/js/2.cebb52b4.chunk.js": "/Authentification/static/js/2.cebb52b4.chunk.js",
+    "static/js/2.cebb52b4.chunk.js.map": "/Authentification/static/js/2.cebb52b4.chunk.js.map",
+    "index.html": "/Authentification/index.html",
+    "precache-manifest.39cc41cfe44845d0155e0579ea28d149.js": "/Authentification/precache-manifest.39cc41cfe44845d0155e0579ea28d149.js",
+    "service-worker.js": "/Authentification/service-worker.js",
+    "static/css/main.7f9eb35d.chunk.css.map": "/Authentification/static/css/main.7f9eb35d.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23bbeeeb.js",
+    "static/js/2.cebb52b4.chunk.js",
+    "static/css/main.7f9eb35d.chunk.css",
+    "static/js/main.9f9b5f4d.chunk.js"
+  ]
+}
