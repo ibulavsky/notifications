@@ -4,16 +4,19 @@ import {NotificationType} from "../App";
 
 interface IProps {
     type: NotificationType
-    key: Number
-    title: String
+    id: number
+    title: string
+    hide: (noteId: number) => void
 }
 
 const Notification = (props: IProps) => {
     let styles = 'notification ' + props.type;
-    debugger
     return (
-        <span className={styles}>
+        <span key={props.id} className={styles}>
             {props.title}
+            <span className={'hideButton'}
+                onClick={() => {props.hide(+props.id)
+            }}>X</span>
        </span>
     );
 };
