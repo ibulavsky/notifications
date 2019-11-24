@@ -2,12 +2,12 @@ import React, {Component} from 'react' ;
 import './App.css';
 import Button from "./components/Button";
 import Notification from "./components/Notification";
-import {connect} from 'react-redux';
 import {IStore} from "./redux/store";
 import {
     deleteNotification, setNotification,
     IDeleteNotificationAction,
 } from "./redux/actionsAndThunks";
+import {connect} from "react-redux";
 
 export interface IState {
     notifications: Array<INotification>
